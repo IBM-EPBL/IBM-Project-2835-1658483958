@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@1,300&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+.header{
+    padding: 3px 120px;
+    width: 800px;
+    height: 70px;
+    background-color: #f8a5c2;
+    opacity: 0.5;
+    margin-top: -5rem;
+}
+.head{
+    padding: 3px 120px;
+    width: 800px;
+    height: 70px;
+    background-color: #f8a5c2;
+    opacity: 0.5;
+    margin-top: -2rem;
+}
+.msg{
+    margin-top: -1rem;
+}
+
+.border{
+    padding: 80px 50px;
+    width: 950px;
+    height: 475px;
+    border-radius: 0px;
+}
+
+
+body { 
+    background-image: url("http://formsaws.s3-website.ap-south-1.amazonaws.com");
+    background-size: contain;
+    background-position: center;
+    max-width: 170%;
+    max-height: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    padding: 10px 40px;
+    background-color: #3dc1d3;
+    color: #2d3436;
+    font-style: oblique;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: -1rem; 
+    position: relative;
+    margin-left: 1rem;  
+}
+.but {
+    padding: 15px 32px;
+    background-color: #3dc1d3;
+    color: #2d3436;
+    font-style: oblique;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top:35rem;
+    margin-right: 10rem; 
+    position: absolute; 
+}
+
+.textbox{
+    padding: 10px 40px;
+    background-color: #f5cd79;
+    color: #2d3436;
+    border-radius: 10px;
+    margin-bottom: -1.5rem;
+   
+}
+    
+::placeholder {
+    color: #2d3436;
+    opacity: 1;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.word{
+    color: #1e272e;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.bottom{
+    color: #236B8E;
+    font-style: oblique;
+    font-weight: bold;
+    margin-top: -2.5rem;
+}
+.drag-area{
+    border: 2px dashed #2d3436;
+    height: 300px;
+    width: 600px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 3rem;
+  }
+  .drag-area.active{
+    border: 1px solid #2d3436;
+  }
+  .drag-area .icon{
+    font-size: 100px;
+    color: #fff;
+  }
+  .drag-area header{
+    font-size: 30px;
+    font-weight: 500;
+    color: #2d3436;
+    font-family:"Poppins", sans-serif;
+  }
+  .drag-area span{
+    font-size: 25px;
+    font-weight: 500;
+    color: #2d3436;
+    margin: 10px 0 15px 0;
+    font-family:"Poppins", sans-serif;
+  }
+  .drag-area button{
+    padding: 10px 25px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    background: #3dc1d3;
+    color: #5256ad;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .drag-area button{
+    padding: 10px 25px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    background: #3dc1d3;
+    color: #2d3436;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .drag-area img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    border-radius: 5px;
+  }
+  
+  .button {
+    border: none;
+    color: #2d3436;
+    background: #3dc1d3;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    bottom: 10px;
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    margin-top: 10rem;
+    margin-right: -8rem;
+  }
